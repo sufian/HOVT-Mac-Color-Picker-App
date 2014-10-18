@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'HOVT Login Helper' target in the 'HOVT Login Helper' project
+//
+
+#ifdef __OBJC__
+  #import <Cocoa/Cocoa.h>
+#endif

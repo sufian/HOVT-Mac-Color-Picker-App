@@ -1,0 +1,62 @@
+//
+//  Constants.h
+//  Color Picker
+//
+
+#import <Foundation/Foundation.h>
+
+FOUNDATION_EXPORT NSString *kSelectedColorsUserDefaultsKey;
+
+FOUNDATION_EXPORT NSString *kMagnifierShortcutUserDefaultsKey;
+FOUNDATION_EXPORT NSUInteger kMagnifierShortcutDefaultKeyCode;
+FOUNDATION_EXPORT NSUInteger kMagnifierShortcutDefaultModifierKeyCode;
+
+FOUNDATION_EXPORT NSString *kSelectedColorFormatUserDefaultsKey;
+FOUNDATION_EXPORT NSUInteger kDefaultSelectedColorFormatIndex;
+
+FOUNDATION_EXPORT NSString *kHexColorFormatShortDisplayedName;
+FOUNDATION_EXPORT NSString *kHex2ColorFormatShortDisplayedName;
+FOUNDATION_EXPORT NSString *kRgbaColorFormatShortDisplayedName;
+FOUNDATION_EXPORT NSString *kCmykColorFormatShortDisplayedName;
+
+FOUNDATION_EXPORT int kMaxSelectedColorCount;
+
+FOUNDATION_EXPORT size_t kAreaPixelCount;
+FOUNDATION_EXPORT int kZoomLevel;
+
+FOUNDATION_EXPORT NSInteger kMenuWidth;
+
+FOUNDATION_EXPORT NSInteger kTopMenuItemHeight;
+FOUNDATION_EXPORT NSInteger kTopMenuItemIconDimension;
+FOUNDATION_EXPORT NSInteger kTopMenuItemEdgeGap;
+FOUNDATION_EXPORT NSInteger kTopTextFieldToIconGap;
+FOUNDATION_EXPORT NSInteger kTopTextSize;
+
+FOUNDATION_EXPORT NSString *kTopTextFontName;
+FOUNDATION_EXPORT NSString *kTopMenuText;
+
+FOUNDATION_EXPORT NSInteger kColorSelectionMenuItemHeight;
+FOUNDATION_EXPORT NSInteger kColorSelectionButtonDimension;
+FOUNDATION_EXPORT NSInteger kColorSelectionButtonToEdgeGap;
+FOUNDATION_EXPORT NSInteger kSelectedColorDisplayViewWidth;
+
+FOUNDATION_EXPORT NSString *kSelectedColorFormatDisplayFontName;
+FOUNDATION_EXPORT NSInteger kSelectedColorFormatDisplayFontSize;
+
+FOUNDATION_EXPORT NSInteger kSelectedColorDisplayMenuItemHeight;
+FOUNDATION_EXPORT NSInteger kSelectedColorDisplayMenuItemStartIndex;
+FOUNDATION_EXPORT NSInteger kSelectedColorDisplayMenuItemColorCircleLeftEdgeGap;
+FOUNDATION_EXPORT NSInteger kSelectedColorDisplayMenuItemColorCircleDimension;
+FOUNDATION_EXPORT NSInteger kSelectedColorDisplayMenuItemColorValueLabelLeftGap;
+FOUNDATION_EXPORT NSInteger kSelectedColorDisplayMenuItemColorValueLabelWidth;
+FOUNDATION_EXPORT NSString *kSelectedColorDisplayMenuItemColorValueLabelFontName;
+FOUNDATION_EXPORT NSInteger kSelectedColorDisplayMenuItemColorValueLabelFontSize;
+
+FOUNDATION_EXPORT NSInteger kBottomMenuItemHeight;
+FOUNDATION_EXPORT NSInteger kPreferenceWindowButtonLeftEdgeGap;
+FOUNDATION_EXPORT NSInteger kPreferenceWindowButtonDimension;
+FOUNDATION_EXPORT NSInteger kBottomMenuItemVerticalSeparatorLeftGap;
+FOUNDATION_EXPORT NSInteger kBottomMenuItemVerticalSeparatorHeight;
+FOUNDATION_EXPORT NSInteger kBottomMenuItemVerticalSeparatorWidth;
+
+FOUNDATION_EXPORT NSString *kQuitAppText;

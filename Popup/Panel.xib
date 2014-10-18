@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="7.10">
+	<data>
+		<int key="IBDocument.SystemTarget">1070</int>
+		<string key="IBDocument.SystemVersion">11G63</string>
+		<string key="IBDocument.InterfaceBuilderVersion">3084</string>
+		<string key="IBDocument.AppKitVersion">1138.51</string>
+		<string key="IBDocument.HIToolboxVersion">569.00</string>
+		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
+			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
+			<string key="NS.object.0">3084</string>
+		</object>
+		<object class="NSArray" key="IBDocument.IntegratedClassDependencies">
+			<bool key="EncodedWithXMLCoder">YES</bool>
+			<string>NSCustomObject</string>
+			<string>NSCustomView</string>
+			<string>NSView</string>
+			<string>NSWindowTemplate</string>
+		</object>
+		<object class="NSArray" key="IBDocument.PluginDependencies">
+			<bool key="EncodedWithXMLCoder">YES</bool>
+			<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+		</object>
+		<object class="NSMutableDictionary" key="IBDocument.Metadata">
+			<string key="NS.key.0">PluginDependencyRecalculationVersion</string>
+			<integer value="1" key="NS.object.0"/>
+		</object>
+		<object class="NSMutableArray" key="IBDocument.RootObjects" id="1000">
+			<bool key="EncodedWithXMLCoder">YES</bool>
+			<object class="NSCustomObject" id="1001">
+				<string key="NSClassName">PanelController</string>
+			</object>
+			<object class="NSCustomObject" id="1003">
+				<string key="NSClassName">FirstResponder</string>
+			</object>
+			<object class="NSCustomObject" id="1004">
+				<string key="NSClassName">NSApplication</string>
+			</object>
+			<object class="NSWindowTemplate" id="194620731">
+				<int key="NSWindowStyleMask">144</int>
+				<int key="NSWindowBacking">2</int>
+				<string key="NSWindowRect">{{162, 101}, {260, 364}}</string>
+				<int key="NSWTFlags">1685586944</int>
+				<string key="NSWindowTitle"/>
+				<string key="NSWindowClass">Panel</string>
+				<nil key="NSViewClass"/>
+				<nil key="NSUserInterfaceItemIdentifier"/>
+				<string key="NSWindowContentMaxSize">{260, 364}</string>
+				<string key="NSWindowContentMinSize">{260, 364}</string>
+				<object class="NSView" key="NSWindowView" id="290197886">
+					<reference key="NSNextResponder"/>
+					<int key="NSvFlags">256</int>
+					<object class="NSMutableArray" key="NSSubviews">
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSCustomView" id="82314145">
+							<reference key="NSNextResponder" ref="290197886"/>
+							<int key="NSvFlags">268</int>
+							<string key="NSFrame">{{0, 319}, {260, 35}}</string>
+							<reference key="NSSuperview" ref="290197886"/>
+							<reference key="NSWindow"/>
+							<reference key="NSNextKeyView" ref="286242272"/>
+							<string key="NSReuseIdentifierKey">_NS:9</string>
+							<string key="NSClassName">MenuTopView</string>
+						</object>
+						<object class="NSCustomView" id="286242272">
+							<reference key="NSNextResponder" ref="290197886"/>
+							<int key="NSvFlags">268</int>
+							<object class="NSMutableArray" key="NSSubviews">
+								<bool key="EncodedWithXMLCoder">YES</bool>
+								<object class="NSCustomView" id="665824323">
+									<reference key="NSNextResponder" ref="286242272"/>
+									<int key="NSvFlags">268</int>
+									<string key="NSFrame">{{0, 30}, {260, 50}}</string>
+									<reference key="NSSuperview" ref="286242272"/>
+									<reference key="NSWindow"/>
+									<reference key="NSNextKeyView" ref="442497907"/>
+									<string key="NSReuseIdentifierKey">_NS:9</string>
+									<string key="NSClassName">SelectedColorView</string>
+								</object>
+								<object class="NSCustomView" id="987879092">
+									<reference key="NSNextResponder" ref="286242272"/>
+									<int key="NSvFlags">268</int>
+									<string key="NSFrame">{{0, 80}, {260, 50}}</string>
+									<reference key="NSSuperview" ref="286242272"/>
+									<reference key="NSWindow"/>
+									<reference key="NSNextKeyView" ref="665824323"/>
+									<string key="NSReuseIdentifierKey">_NS:9</string>
+									<string key="NSClassName">SelectedColorView</string>
+								</object>
+								<object class="NSCustomView" id="768865074">
+									<reference key="NSNextResponder" ref="286242272"/>
+									<int key="NSvFlags">268</int>
+									<string key="NSFrame">{{0, 130}, {260, 50}}</string>
+									<reference key="NSSuperview" ref="286242272"/>
+									<reference key="NSWindow"/>
+									<reference key="NSNextKeyView" ref="987879092"/>
+									<string key="NSReuseIdentifierKey">_NS:9</string>
+									<string key="NSClassName">SelectedColorView</string>
+								</object>
+								<object class="NSCustomView" id="130643828">
+									<reference key="NSNextResponder" ref="286242272"/>
+									<int key="NSvFlags">268</int>
+									<string key="NSFrame">{{0, 180}, {260, 50}}</string>
+									<reference key="NSSuperview" ref="286242272"/>
+									<reference key="NSWindow"/>
+									<reference key="NSNextKeyView" ref="768865074"/>
+									<string key="NSReuseIdentifierKey">_NS:9</string>
+									<string key="NSClassName">SelectedColorView</string>
+								</object>
+								<object class="NSCustomView" id="827967956">
+									<reference key="NSNextResponder" ref="286242272"/>
+									<int key="NSvFlags">268</int>
+									<string key="NSFrame">{{0, 230}, {260, 50}}</string>
+									<reference key="NSSuperview" ref="286242272"/>
+									<reference key="NSWindow"/>
+									<reference key="NSNextKeyView" ref="130643828"/>
+									<string key="NSReuseIdentifierKey">_NS:9</string>
+									<string key="NSClassName">SelectedColorView</string>
+								</object>
+								<object class="NSCustomView" id="442497907">
+									<reference key="NSNextResponder" ref="286242272"/>
+									<int key="NSvFlags">268</int>
+									<string key="NSFrameSize">{260, 30}</string>
+									<reference key="NSSuperview" ref="286242272"/>
+									<reference key="NSWindow"/>
+									<string key="NSReuseIdentifierKey">_NS:9</string>
+									<string key="NSClassName">MenuBottomView</string>
+								</object>
+								<object class="NSCustomView" id="811163603">
+									<reference key="NSNextResponder" ref="286242272"/>
+									<int key="NSvFlags">268</int>
+									<string key="NSFrame">{{0, 280}, {260, 34}}</string>
+									<reference key="NSSuperview" ref="286242272"/>
+									<reference key="NSWindow"/>
+									<reference key="NSNextKeyView" ref="827967956"/>
+									<string key="NSReuseIdentifierKey">_NS:9</string>
+									<string key="NSClassName">ColorFormatSelectionView</string>
+								</object>
+							</object>
+							<string key="NSFrame">{{0, 5}, {260, 314}}</string>
+							<reference key="NSSuperview" ref="290197886"/>
+							<reference key="NSWindow"/>
+							<reference key="NSNextKeyView" ref="811163603"/>
+							<string key="NSReuseIdentifierKey">_NS:9</string>
+							<string key="NSClassName">NSView</string>
+						</object>
+					</object>
+					<string key="NSFrameSize">{260, 364}</string>
+					<reference key="NSSuperview"/>
+					<reference key="NSWindow"/>
+					<reference key="NSNextKeyView" ref="82314145"/>
+				</object>
+				<string key="NSScreenRect">{{0, 0}, {1920, 1058}}</string>
+				<string key="NSMinSize">{260, 364}</string>
+				<string key="NSMaxSize">{260, 364}</string>
+				<int key="NSWindowAnimationBehavior">2</int>
+				<int key="NSWindowCollectionBehavior">66</int>
+				<bool key="NSWindowIsRestorable">NO</bool>
+			</object>
+			<object class="NSCustomView" id="788416082">
+				<reference key="NSNextResponder"/>
+				<int key="NSvFlags">268</int>
+				<object class="NSMutableArray" key="NSSubviews">
+					<bool key="EncodedWithXMLCoder">YES</bool>
+					<object class="NSCustomView" id="963866012">
+						<reference key="NSNextResponder" ref="788416082"/>
+						<int key="NSvFlags">268</int>
+						<object class="NSMutableArray" key="NSSubviews">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<object class="NSCustomView" id="460344241">
+								<reference key="NSNextResponder" ref="963866012"/>
+								<int key="NSvFlags">268</int>
+								<string key="NSFrame">{{45, 77}, {170, 22}}</string>
+								<reference key="NSSuperview" ref="963866012"/>
+								<reference key="NSWindow"/>
+								<string key="NSReuseIdentifierKey">_NS:9</string>
+								<string key="NSClassName">MASShortcutView</string>
+							</object>
+						</object>
+						<string key="NSFrameSize">{260, 151}</string>
+						<reference key="NSSuperview" ref="788416082"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="460344241"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<string key="NSClassName">SettingsBackgroundView</string>
+					</object>
+					<object class="NSCustomView" id="386501582">
+						<reference key="NSNextResponder" ref="788416082"/>
+						<int key="NSvFlags">268</int>
+						<string key="NSFrame">{{0, 151}, {260, 34}}</string>
+						<reference key="NSSuperview" ref="788416082"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="963866012"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<string key="NSClassName">SettingsGoBackView</string>
+					</object>
+				</object>
+				<string key="NSFrameSize">{260, 185}</string>
+				<reference key="NSSuperview"/>
+				<reference key="NSWindow"/>
+				<reference key="NSNextKeyView" ref="386501582"/>
+				<string key="NSReuseIdentifierKey">_NS:9</string>
+				<string key="NSClassName">NSView</string>
+			</object>
+		</object>
+		<object class="IBObjectContainer" key="IBDocument.Objects">
+			<object class="NSMutableArray" key="connectionRecords">
+				<bool key="EncodedWithXMLCoder">YES</bool>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">window</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="194620731"/>
+					</object>
+					<int key="connectionID">7</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">backgroundView</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="290197886"/>
+					</object>
+					<int key="connectionID">20</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">menuContainerView</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="286242272"/>
+					</object>
+					<int key="connectionID">52</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">preferenceContainerView</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="788416082"/>
+					</object>
+					<int key="connectionID">56</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">menuBottomView</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="442497907"/>
+					</object>
+					<int key="connectionID">57</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">settingsGoBackView</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="386501582"/>
+					</object>
+					<int key="connectionID">59</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">selectedColorView0</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="827967956"/>
+					</object>
+					<int key="connectionID">74</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">selectedColorView1</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="130643828"/>
+					</object>
+					<int key="connectionID">75</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">selectedColorView2</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="768865074"/>
+					</object>
+					<int key="connectionID">76</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">selectedColorView3</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="987879092"/>
+					</object>
+					<int key="connectionID">77</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">selectedColorView4</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="665824323"/>
+					</object>
+					<int key="connectionID">78</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">colorFormatSelectionView</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="811163603"/>
+					</object>
+					<int key="connectionID">79</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">shortcutRecordView</string>
+						<reference key="source" ref="1001"/>
+						<reference key="destination" ref="460344241"/>
+					</object>
+					<int key="connectionID">81</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">delegate</string>
+						<reference key="source" ref="194620731"/>
+						<reference key="destination" ref="1001"/>
+					</object>
+					<int key="connectionID">8</int>
+				</object>
+			</object>
+			<object class="IBMutableOrderedSet" key="objectRecords">
+				<object class="NSArray" key="orderedObjects">
+					<bool key="EncodedWithXMLCoder">YES</bool>
+					<object class="IBObjectRecord">
+						<int key="objectID">0</int>
+						<object class="NSArray" key="object" id="0">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+						</object>
+						<reference key="children" ref="1000"/>
+						<nil key="parent"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">-2</int>
+						<reference key="object" ref="1001"/>
+						<reference key="parent" ref="0"/>
+						<string key="objectName">File's Owner</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">-1</int>
+						<reference key="object" ref="1003"/>
+						<reference key="parent" ref="0"/>
+						<string key="objectName">First Responder</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">-3</int>
+						<reference key="object" ref="1004"/>
+						<reference key="parent" ref="0"/>
+						<string key="objectName">Application</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">5</int>
+						<reference key="object" ref="194620731"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="290197886"/>
+						</object>
+						<reference key="parent" ref="0"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">6</int>
+						<reference key="object" ref="290197886"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="82314145"/>
+							<reference ref="286242272"/>
+						</object>
+						<reference key="parent" ref="194620731"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">51</int>
+						<reference key="object" ref="286242272"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="811163603"/>
+							<reference ref="442497907"/>
+							<reference ref="827967956"/>
+							<reference ref="130643828"/>
+							<reference ref="768865074"/>
+							<reference ref="987879092"/>
+							<reference ref="665824323"/>
+						</object>
+						<reference key="parent" ref="290197886"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">53</int>
+						<reference key="object" ref="811163603"/>
+						<reference key="parent" ref="286242272"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">54</int>
+						<reference key="object" ref="442497907"/>
+						<reference key="parent" ref="286242272"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">55</int>
+						<reference key="object" ref="788416082"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="386501582"/>
+							<reference ref="963866012"/>
+						</object>
+						<reference key="parent" ref="0"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">58</int>
+						<reference key="object" ref="386501582"/>
+						<reference key="parent" ref="788416082"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">61</int>
+						<reference key="object" ref="963866012"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="460344241"/>
+						</object>
+						<reference key="parent" ref="788416082"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">69</int>
+						<reference key="object" ref="827967956"/>
+						<reference key="parent" ref="286242272"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">70</int>
+						<reference key="object" ref="130643828"/>
+						<reference key="parent" ref="286242272"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">71</int>
+						<reference key="object" ref="768865074"/>
+						<reference key="parent" ref="286242272"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">72</int>
+						<reference key="object" ref="987879092"/>
+						<reference key="parent" ref="286242272"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">73</int>
+						<reference key="object" ref="665824323"/>
+						<reference key="parent" ref="286242272"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">80</int>
+						<reference key="object" ref="460344241"/>
+						<reference key="parent" ref="963866012"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">38</int>
+						<reference key="object" ref="82314145"/>
+						<reference key="parent" ref="290197886"/>
+					</object>
+				</object>
+			</object>
+			<object class="NSMutableDictionary" key="flattenedProperties">
+				<bool key="EncodedWithXMLCoder">YES</bool>
+				<object class="NSArray" key="dict.sortedKeys">
+					<bool key="EncodedWithXMLCoder">YES</bool>
+					<string>-1.IBPluginDependency</string>
+					<string>-2.IBPluginDependency</string>
+					<string>-3.IBPluginDependency</string>
+					<string>38.IBPluginDependency</string>
+					<string>38.object.labelIdentifier</string>
+					<string>5.IBPluginDependency</string>
+					<string>5.IBWindowTemplateEditedContentRect</string>
+					<string>5.NSWindowTemplate.visibleAtLaunch</string>
+					<string>51.IBPluginDependency</string>
+					<string>53.IBPluginDependency</string>
+					<string>54.IBPluginDependency</string>
+					<string>55.IBPluginDependency</string>
+					<string>58.IBPluginDependency</string>
+					<string>6.CustomClassName</string>
+					<string>6.IBPluginDependency</string>
+					<string>61.IBPluginDependency</string>
+					<string>69.IBPluginDependency</string>
+					<string>70.IBPluginDependency</string>
+					<string>71.IBPluginDependency</string>
+					<string>72.IBPluginDependency</string>
+					<string>73.IBPluginDependency</string>
+					<string>80.IBPluginDependency</string>
+				</object>
+				<object class="NSArray" key="dict.values">
+					<bool key="EncodedWithXMLCoder">YES</bool>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>IBBuiltInLabel-Red</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>{{609, 381}, {280, 378}}</string>
+					<boolean value="NO"/>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>BackgroundView</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+				</object>
+			</object>
+			<object class="NSMutableDictionary" key="unlocalizedProperties">
+				<bool key="EncodedWithXMLCoder">YES</bool>
+				<reference key="dict.sortedKeys" ref="0"/>
+				<reference key="dict.values" ref="0"/>
+			</object>
+			<nil key="activeLocalization"/>
+			<object class="NSMutableDictionary" key="localizations">
+				<bool key="EncodedWithXMLCoder">YES</bool>
+				<reference key="dict.sortedKeys" ref="0"/>
+				<reference key="dict.values" ref="0"/>
+			</object>
+			<nil key="sourceID"/>
+			<int key="maxID">81</int>
+		</object>
+		<object class="IBClassDescriber" key="IBDocument.Classes">
+			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
+				<bool key="EncodedWithXMLCoder">YES</bool>
+				<object class="IBPartialClassDescription">
+					<string key="className">BackgroundView</string>
+					<string key="superclassName">NSView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/BackgroundView.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">ColorFormatSelectionView</string>
+					<string key="superclassName">NSView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/ColorFormatSelectionView.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">MASShortcutView</string>
+					<string key="superclassName">NSView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/MASShortcutView.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">MenuBottomView</string>
+					<string key="superclassName">NSView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/MenuBottomView.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">MenuTopView</string>
+					<string key="superclassName">NSView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/MenuTopView.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">Panel</string>
+					<string key="superclassName">NSPanel</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/Panel.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">PanelController</string>
+					<string key="superclassName">NSWindowController</string>
+					<object class="NSMutableDictionary" key="outlets">
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>backgroundView</string>
+							<string>colorFormatSelectionView</string>
+							<string>menuBottomView</string>
+							<string>menuContainerView</string>
+							<string>preferenceContainerView</string>
+							<string>selectedColorView0</string>
+							<string>selectedColorView1</string>
+							<string>selectedColorView2</string>
+							<string>selectedColorView3</string>
+							<string>selectedColorView4</string>
+							<string>settingsGoBackView</string>
+							<string>shortcutRecordView</string>
+						</object>
+						<object class="NSArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>BackgroundView</string>
+							<string>ColorFormatSelectionView</string>
+							<string>MenuBottomView</string>
+							<string>NSView</string>
+							<string>NSView</string>
+							<string>SelectedColorView</string>
+							<string>SelectedColorView</string>
+							<string>SelectedColorView</string>
+							<string>SelectedColorView</string>
+							<string>SelectedColorView</string>
+							<string>SettingsGoBackView</string>
+							<string>MASShortcutView</string>
+						</object>
+					</object>
+					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>backgroundView</string>
+							<string>colorFormatSelectionView</string>
+							<string>menuBottomView</string>
+							<string>menuContainerView</string>
+							<string>preferenceContainerView</string>
+							<string>selectedColorView0</string>
+							<string>selectedColorView1</string>
+							<string>selectedColorView2</string>
+							<string>selectedColorView3</string>
+							<string>selectedColorView4</string>
+							<string>settingsGoBackView</string>
+							<string>shortcutRecordView</string>
+						</object>
+						<object class="NSArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<object class="IBToOneOutletInfo">
+								<string key="name">backgroundView</string>
+								<string key="candidateClassName">BackgroundView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">colorFormatSelectionView</string>
+								<string key="candidateClassName">ColorFormatSelectionView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">menuBottomView</string>
+								<string key="candidateClassName">MenuBottomView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">menuContainerView</string>
+								<string key="candidateClassName">NSView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">preferenceContainerView</string>
+								<string key="candidateClassName">NSView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">selectedColorView0</string>
+								<string key="candidateClassName">SelectedColorView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">selectedColorView1</string>
+								<string key="candidateClassName">SelectedColorView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">selectedColorView2</string>
+								<string key="candidateClassName">SelectedColorView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">selectedColorView3</string>
+								<string key="candidateClassName">SelectedColorView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">selectedColorView4</string>
+								<string key="candidateClassName">SelectedColorView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">settingsGoBackView</string>
+								<string key="candidateClassName">SettingsGoBackView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">shortcutRecordView</string>
+								<string key="candidateClassName">MASShortcutView</string>
+							</object>
+						</object>
+					</object>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/PanelController.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">SelectedColorView</string>
+					<string key="superclassName">NSView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/SelectedColorView.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">SettingsBackgroundView</string>
+					<string key="superclassName">NSView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/SettingsBackgroundView.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">SettingsGoBackView</string>
+					<string key="superclassName">NSView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/SettingsGoBackView.h</string>
+					</object>
+				</object>
+			</object>
+		</object>
+		<int key="IBDocument.localizationMode">0</int>
+		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaFramework</string>
+		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
+			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.InterfaceBuilder3</string>
+			<integer value="3000" key="NS.object.0"/>
+		</object>
+		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
+		<int key="IBDocument.defaultPropertyAccessControl">3</int>
+	</data>
+</archive>
