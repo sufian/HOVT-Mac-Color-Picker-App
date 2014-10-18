@@ -1,3 +1,3 @@
 HOVT: Mac Color Picker App
 
-![](https://github.com/sufian/HOVT-Mac-Color-Picker-App/master/artwork.png)
+![](https://raw.githubusercontent.com/sufian/HOVT-Mac-Color-Picker-App/master/artwork.png)
