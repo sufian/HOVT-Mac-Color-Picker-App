@@ -151,7 +151,7 @@ static Hex2Format *_hex2Format;
 
 - (void)launchLink
 {
-  [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://hovt.com/color/%@", [_hex2Format formatFromColor:self.selectedColor]]]];
+  [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:[NSString stringWithFormat:@"https://dribbble.com/colors/%@", [_hex2Format formatFromColor:self.selectedColor]]]];
 }
 
 - (void)mouseUp:(NSEvent *)theEvent
