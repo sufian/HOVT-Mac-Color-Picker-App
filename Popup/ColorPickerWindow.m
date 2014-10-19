@@ -55,15 +55,17 @@
 }
 
 - (void)updateWindow
-{  
+{
   [_magnifierView updateMagnifiedImage];
   
   NSPoint point = [NSEvent mouseLocation];
-  [self setFrameOrigin:NSMakePoint(point.x - (kAreaPixelCount * kZoomLevel / 2), point.y - (kAreaPixelCount * kZoomLevel / 2))];  
+  [self setFrameOrigin:NSMakePoint(point.x - (kAreaPixelCount * kZoomLevel / 2), point.y - (kAreaPixelCount * kZoomLevel / 2))];
 }
 
 - (void)mouseUp:(NSEvent *)theEvent
 {
+  [super mouseUp:theEvent];
+  
   //NSLog(@"mouse up");
   CGFloat backingScaleFactor = [NSScreen mainScreen].backingScaleFactor;
   
@@ -90,6 +92,7 @@
 - (void)cancelOperation:(id)sender
 {
   //NSLog(@"Canceling");
+  [super cancelOperation:sender];
   
   [self orderOut:NSApp];
   [NSApp hide:NSApp];
@@ -98,11 +101,10 @@
 - (void)makeKeyAndOrderFront:(id)sender
 {
   //NSLog(@"made key");
-  
-  [self updateWindow];
-  [NSApp activateIgnoringOtherApps:YES];
   [super makeKeyAndOrderFront:sender];
   
+  [self updateWindow];
+  [self becomeKeyWindow];
 }
 
 - (BOOL)canBecomeKeyWindow
@@ -133,6 +135,7 @@
   if (!CGCursorIsVisible()) {
     [NSCursor unhide];
   }
+  
   [self orderOut:NSApp];
   [NSApp hide:NSApp];
   
